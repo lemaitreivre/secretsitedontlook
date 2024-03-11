@@ -53,7 +53,7 @@ html{
   box-sizing: border-box;
 }
 body{
-  background: url("/img/main_background2.jpg");
+  background: url("../../img/main_background2.jpg");
   padding:0;
   margin: 0;
   background-repeat: no-repeat;
@@ -391,7 +391,7 @@ td {
   background-repeat: no-repeat;
   background-size: cover;
   height: 2623px;
-  background: url(/img/main_background2.jpg);
+  background: url("../../img/main_background2.jpg");
 }
 
 .portfolio__head{
