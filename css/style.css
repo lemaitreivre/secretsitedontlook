@@ -69,7 +69,7 @@ a{
     padding: 0 0px;
     margin: 0px auto;
     height: 895px;
-    background: url(/img/main_background2.jpg);
+    background: url(../img/main_background2.jpg);
 }
 .container {
   width: 100%;
@@ -226,8 +226,6 @@ li{
   background-repeat: no-repeat;
   background-size: cover;
   height: 1000px;
-}
-.serv__inner {
 }
 .serv__title {
   text-align: center;
@@ -664,7 +662,7 @@ li{
   padding: 0 0px;
   margin: 0px auto;
   height: 700px;
-  background: url("/avtotonirovka/price_bg2.jpg");
+  background: url("../avtotonirovka/price_bg2.jpg");
 }
 .contacts__head{
   display: block;
