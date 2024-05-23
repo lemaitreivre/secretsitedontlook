@@ -68,7 +68,7 @@ a{
     width: 100%;
     padding: 0 0px;
     margin: 0px auto;
-    height: 895px;
+    height: 46.6vw;
     background: url(../img/main_background2.jpg);
 }
 .container {
@@ -164,12 +164,12 @@ li{
   display: block;
   justify-content: center;
   padding: 100px 0;
-  width: 880px;
-  height: 600px;
+  width: 45vw;
+  height: 31.25vw;
   color: rgba(255, 255, 255, 0.5); /* Белый цвет с прозрачностью 50% */
   background-color: #272626; /* Черный фон */
   /*background-color: #D8C1DD66;*/
-  margin-left: 60px;
+  margin-left: 3vw;
   text-align: left;
   opacity: 0;
   transform: translateX(-80px) translateY(10px);
@@ -184,8 +184,8 @@ li{
   -ms-transform: translateX(0%) translateY(0%);
 }
 .header__title {
-  padding-left: 100px;
-  font-size: 72px;
+  padding-left: 4vw;
+  font-size: 3.75vw;
   font-family: "BebasNeueCyrillic", sans-serif;
   text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;
   line-height: 1.25em;
@@ -194,20 +194,20 @@ li{
   letter-spacing: 0.025em;
 }
 .header__text {
-  padding-left: 100px;
+  padding-left: 4vw;
   font-family: "HelveticaNeueLTProLt", sans-serif;
-  font-size: 26px;
+  font-size: 1.35vw;
   text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;
   color: #efe8e8;
   line-height: 1.5em;
 }
 .big__logo{
-  width: 600px;
-  margin-right: 90px;
+  width: 31.25vw;
+  margin-right: 4.7vw;
   opacity: 0;
-  transform: translateX(80px) translateY(10px);
-  -webkit-transform: translateX(80px) translateY(10px);
-  -ms-transform: translateX(80px) translateY(10px);
+  transform: translateX(4vw) translateY(10px);
+  -webkit-transform: translateX(4vw) translateY(10px);
+  -ms-transform: translateX(4vw) translateY(10px);
 }
 .big__logo.element-show{
   opacity: 1;
@@ -423,9 +423,9 @@ li{
 }
 
 .send {
-  margin-top: 30px;
+  margin-top: 1.5vw;
   text-align: center;
-  padding-top: 13px;
+  padding-top: 0.7vw;
   opacity: 0;
 }
 .send.element-show{
@@ -441,8 +441,8 @@ li{
   border-radius: 3px;
   background: #BF58E8;
   color: #efe8e8;
-  width: 250px;
-  height: 55px;
+  width: 13vw;/*250*/
+  height: 2.86vw;/*55*/
   box-shadow: 2px 2px 25px 10px rgba(243, 241, 241, 0.4);
 }
 
@@ -812,23 +812,131 @@ input {
   text-align: center;
   text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;
 }
+/*media reqs*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width: 1601px){
+  .logo a{
+    color: blue;
+  }/*
+  .welcome{
+    width: 625px;
+    margin-left: 35px;
+  }
+  .header__title {
+    padding-left: 60px;
+    font-size: 62px;
+  }
+  .header__text {
+    padding-left: 60px;
+    font-size: 22px;
+  }
+  .big__logo{
+    width: 500px;
+    margin-right: 35px;
+  }
+  */
+    
+}
+@media screen and (max-width: 1301px){
+  .logo a{
+    color: red;
+  }
+  /*
+  .welcome{
+    width: 700px;
+    margin-left: 50px;
+  }
+  .header__title {
+    padding-left: 70px;
+  }
+  .header__text {
+    padding-left: 70px;
+  }
+  .big__logo{
+    width: 525px;
+    margin-right: 75px;
+  }
+  */
+}
+@media screen and (max-width: 1025px){
+  .logo a{
+    color: green;
+  }
+  /*
+  .welcome{
+    width: 700px;
+    margin-left: 50px;
+  }
+  .header__title {
+    padding-left: 70px;
+  }
+  .header__text {
+    padding-left: 70px;
+  }
+  .big__logo{
+    width: 525px;
+    margin-right: 75px;
+  }
+  */
+}
+@media screen and (max-width: 769px){
+  .logo a{
+    color: yellow;
+  }
+  /*
+  .welcome{
+    width: 700px;
+    margin-left: 50px;
+  }
+  .header__title {
+    padding-left: 70px;
+  }
+  .header__text {
+    padding-left: 70px;
+  }
+  .big__logo{
+    width: 525px;
+    margin-right: 75px;
+  }
+  */
+}
+@media screen and (max-width: 481px){
+  .logo a{
+    color: black;
+  }
+  /*
+  .welcome{
+    width: 700px;
+    margin-left: 50px;
+  }
+  .header__title {
+    padding-left: 70px;
+  }
+  .header__text {
+    padding-left: 70px;
+  }
+  .big__logo{
+    width: 525px;
+    margin-right: 75px;
+  }
+  */
+}
+@media screen and (max-width: 321px){
+  .welcome{
+    width: 700px;
+    margin-left: 50px;
+  }
+  .header__title {
+    padding-left: 70px;
+  }
+  .header__text {
+    padding-left: 70px;
+  }
+  .big__logo{
+    width: 525px;
+    margin-right: 75px;
+  }
+}
 
 
 
