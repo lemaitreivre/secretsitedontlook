@@ -950,7 +950,6 @@ input {
     width: 25vw;
     height: 25vw;
     margin-left: 40px;
-
   }
   .portfolio__content-all-text-right{
     width: 25vw;
@@ -959,8 +958,7 @@ input {
   }
   .portfolio__content-title {
     font-size: 40px;
-    margin-top: 5px;
-
+    margin-top: 15px;
   }
   .single-img{
     height: 29vw;
