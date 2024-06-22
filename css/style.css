@@ -1547,7 +1547,7 @@ li{
   }
   .btn {
     font-size: 12px;
-    width: 20vw;/*250*/
+    width: auto;/*250*/
     height: auto;
   }
   .welcome{
