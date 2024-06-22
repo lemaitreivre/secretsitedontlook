@@ -509,7 +509,7 @@ li{
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
-  background: url("../../img/main_background2.jpg");
+  background: url("../img/main_background2.jpg");
 }
 .portfolio__title{
   display: block;
