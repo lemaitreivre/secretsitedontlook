@@ -163,22 +163,35 @@
  <div class="contacts" id="contacts">
     <div class="fourth__container">
         <div><br><br><br><br></div>
-        <div class="contacts__head">
-            <div class="contacts__title">Контакты</div>
-            <div class="contacts__text">Оставьте свою заявку, и наш менеджер свяжется с вами</div>
-        </div>
-        <div class="contacts__inner">
-            <div class="user__info">
-                <input type="text" class="input" name="mail" placeholder="E-mail">
-                <input type="text" class="input" name="name" placeholder="Имя">
-                <input type="text" class="input" name="phone" placeholder="Телефон">
+        <div class="whole__form">
+            <div class="contacts__head">
+                <div class="contacts__title">Контакты</div>
+                <div class="contacts__text">Оставьте свою заявку, и наш менеджер свяжется с вами</div>
             </div>
-            <div class="send__info">
-                <a href="#"><button class="btn" type="button">Отправить</button></a>
-            </div>
-            <div class="policy">
-                Нажимая на кнопку, вы даете согласие на обработку персональных данных<br>
-                 и соглашаетесь c политикой конфиденциальности
+            <div class="contacts__inner">
+                <div class="user__info">
+                    <form id="form" action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="1a13c8a9-bf3f-453d-8bbc-989473cbe6d8">
+                        <input type="text" class="input _req _email" name="mail" placeholder="E-mail">
+                        <input type="text" class="input _req" name="name" placeholder="Имя">
+                        <input type="text" class="input _req" name="phone" placeholder="Телефон">
+                        <div class="gimme__permission">
+                            <input id="formAgreement" type="checkbox" name="agreement" class="checkbox__input _req">
+                            <label for="formAgreement" class="policy _req">Я даю свое согласие на обработку персональных данных
+                            в соответствии с <a href="#">политикой конфиденциальности</a></label>
+                        </div>
+                        <div class="send__info">
+                            <a href="#"><button class="btn" type="submit">Отправить</button></a>
+                        </div>
+                    </form>
+                </div>
+                <!--<div class="send__info">
+                    <a href="#"><button class="btn" type="button">Отправить</button></a>
+                </div>
+                <div class="policy">
+                    Нажимая на кнопку, вы даете согласие на обработку персональных данных<br>
+                     и соглашаетесь c политикой конфиденциальности
+                </div>-->
             </div>
         </div>
     </div>
@@ -210,5 +223,6 @@
 
 <script src="scripts/scroll.js"></script>
 <script src="scripts/scroll_hover.js"></script>
+<script src="../scripts/form_script.js"></script>
 </body>
 </html>

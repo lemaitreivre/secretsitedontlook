@@ -52,15 +52,26 @@
                 </ul>
             </div>
         </div>
+        <div class="mobile__menu">
+            <div class="logo"><a href="#">CAR LOUNGE 96</a></div>
+            <div class="menu__burger"></div>
+            <ul class="menu__mobile">
+                <li class="menu__item active"><a href="#">Главная</a></li>
+                <li class="menu__item"><a href="#uslugi">Услуги</a></li>
+                <li class="menu__item"><a href="#about__us">О нас</a></li>
+                <li class="menu__item"><a href="#contacts">Контакты</a></li>
+                <li class="menu__item"><a href="#portf">Портфолио</a></li>
+            </ul>
+        </div>
         <div class="header__content">
             <div class="welcome">
-                <h1 class="header__title">Лучший<br> детейлинг-центр</h1>
-                <p class="header__text">Самая качественная тонировка в городе</p>
+                <h1 class="header__title"><span>Лучший</span><br> детейлинг-центр</h1>
+                <p class="header__text">Наши клиенты выбирают качество</p>
             </div>
             <img src="img/logo2.png" alt="" class="big__logo">
         </div>
         <div class="send">
-            <a href="#contacts"><button class="btn" type="button">Оставить заявку</button></a>
+            <a href="#contacts"><button class="btn" type="button">Заказать звонок</button></a>
         </div>
     </div>
  </header>
@@ -179,7 +190,7 @@
     <div class="fiveth__container">
         <div class="portfolio__title">
             <h1 class="portfolio__inner-title">Портфолио</h1>
-            <p class="portfolio__inner-text">Больше работ в <a href="#">Instagram</a></p>
+            <p class="portfolio__inner-text">Больше работ в <a href="https://www.instagram.com/carlounge96">Instagram</a></p>
         </div>
         <div class="portfolio__inner">
             <div class="portfolio__content">
@@ -215,24 +226,40 @@
  <div class="contacts" id="contacts">
     <div class="fourth__container">
         <div><br><br><br><br></div>
-        <div class="contacts__head">
-            <div class="contacts__title">Контакты</div>
-            <div class="contacts__text">Оставьте свою заявку, и наш менеджер свяжется с вами</div>
+        <div class="whole__form">
+            <div class="contacts__head">
+                <div class="contacts__title">Контакты</div>
+                <div class="contacts__text">Оставьте свою заявку, и наш менеджер свяжется с вами</div>
+            </div>
+            <div class="contacts__inner">
+                <div class="user__info">
+                    <form id="form" action="https://api.web3forms.com/submit" method="POST">
+                        <div class="all__input">
+                            <input type="hidden" name="access_key" value="1a13c8a9-bf3f-453d-8bbc-989473cbe6d8">
+                            <input type="text" class="input _req _email" name="mail" placeholder="E-mail">
+                            <input type="text" class="input _req" name="name" placeholder="Имя">
+                            <input type="text" class="input _req" name="phone" placeholder="Телефон">
+                        </div>
+                        <div class="gimme__permission">
+                            <input id="formAgreement" type="checkbox" name="agreement" class="checkbox__input _req">
+                            <label for="formAgreement" class="policy _req">Я даю свое согласие на обработку персональных данных
+                            в соответствии с <a href="#">политикой конфиденциальности</a></label>
+                        </div>
+                        <div class="send__info">
+                            <a href="#"><button class="btn" type="submit">Отправить</button></a>
+                        </div>
+                    </form>
+                </div>
+                <!--<div class="send__info">
+                    <a href="#"><button class="btn" type="button">Отправить</button></a>
+                </div>
+                <div class="policy">
+                    Нажимая на кнопку, вы даете согласие на обработку персональных данных<br>
+                     и соглашаетесь c политикой конфиденциальности
+                </div>-->
+            </div>
         </div>
-        <div class="contacts__inner">
-            <div class="user__info">
-                <input type="text" class="input" name="mail" placeholder="E-mail">
-                <input type="text" class="input" name="name" placeholder="Имя">
-                <input type="text" class="input" name="phone" placeholder="Телефон">
-            </div>
-            <div class="send__info">
-                <a href="#"><button class="btn" type="button">Отправить</button></a>
-            </div>
-            <div class="policy">
-                Нажимая на кнопку, вы даете согласие на обработку персональных данных<br>
-                 и соглашаетесь c политикой конфиденциальности
-            </div>
-        </div>
+        
     </div>
  </div>
  <div class="footer">
@@ -261,5 +288,6 @@
 
 <script src="scripts/scroll.js"></script>
 <script src="scripts/scroll_hover.js"></script>
+<script src="scripts/form_script.js"></script>
 </body>
 </html>
