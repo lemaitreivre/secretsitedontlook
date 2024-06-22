@@ -1547,7 +1547,7 @@ li{
   }
   .btn {
     font-size: 12px;
-    width: 20vw;/*250*/
+    width: auto;/*250*/
     height: auto;
   }
   .welcome{
@@ -1646,6 +1646,8 @@ li{
   .gimme__permission {
     margin-top: 60px;
     padding-bottom: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
   }
   .checkbox__input {
     font-size: 14px;
@@ -1672,8 +1674,6 @@ li{
   .footer__text {
     font-size: 9px;
   }
-  .footer__media {
-  }
   .footer__media-title {
     font-size: 12px;
     padding: 0px 0px 0px 0px;
@@ -1685,7 +1685,6 @@ li{
   .fourth__container {
     height: 620px;
   }
-
 }
 
 
