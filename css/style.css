@@ -509,7 +509,7 @@ li{
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
-  background: url("../../img/main_background2.jpg");
+  background: url("../img/main_background2.jpg");
 }
 .portfolio__title{
   display: block;
@@ -1191,9 +1191,6 @@ li{
     display: none;
   }
   .logo a{
-    color: yellow;
-  }
-  .logo a{
     font-size: 18px;
   }
   .header__title {
@@ -1348,15 +1345,19 @@ li{
     font-size: 20px;
   }
   .header__title {
-    font-size: 24px;
+    font-size: 30px;
+    padding-right: 5px;
+    padding-left: 15px;
   }
   .header__text {
-    font-size: 14px;
+    font-size: 12px;
+    padding-right: 5px;
+    padding-left: 15px;
   }
   .btn {
     font-size: 13px;
-    width: 20vw;/*250*/
-    height: 8vw;
+    width: auto;/*250*/
+    height: auto;
   }
   .welcome{
     padding: 0px 0;
@@ -1463,7 +1464,7 @@ li{
     height: auto;
   }
   .footer__inner {
-    grid-template-columns: repeat(3, 135px);
+    grid-template-columns: repeat(3, 31vw);
     grid-gap:5px;
     place-content: center center;
     margin-top: 30px;
@@ -1477,8 +1478,6 @@ li{
   .footer__text {
     font-size: 10px;
   }
-  .footer__media {
-  }
   .footer__media-title {
     font-size: 12px;
     padding: 0px 0px 0px 0px;
@@ -1487,18 +1486,207 @@ li{
   .footer-logos a{
     font-size: 14px;
   }
-  .icon-vkontakte {
+}
+@media screen and (max-width: 376px){
+  body{
+    padding-top: 0px;
   }
-  .icon-instagram {
+  .menu{
+    display: none;
   }
-  .icon-telegram {
+  .mobile__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+    background-color: #272626;
+    height: 65px;
   }
-  .footer__contacts {
+  .menu__mobile{
+    display: none;
+
   }
-  
+  .menu__burger{
+    cursor: pointer;
+    width: 30px;
+    height: 3px;
+    background-color: #efe8e8;
+    position: relative;
+    margin-right: 10px;
+  }
+  .menu__burger:after{
+    content: '';
+    width: 30px;
+    height: 3px;
+    background-color: #efe8e8;
+    position: absolute;
+    top: 10px;
+  }
+  .menu__burger:before{
+    content: '';
+    width: 30px;
+    height: 3px;
+    background-color: #efe8e8;
+    position: absolute;
+    bottom: 10px;
+  }
+  .logo a{
+    color: #efe8e8;
+    margin-left: 15px;
+    font-size: 20px;
+  }
+  .header__title {
+    font-size: 23px;
+    padding-right: 5px;
+    padding-left: 15px;
+  }
+  .header__text {
+    font-size: 11px;
+    padding-right: 5px;
+    padding-left: 15px;
+  }
+  .btn {
+    font-size: 12px;
+    width: 20vw;/*250*/
+    height: auto;
+  }
+  .welcome{
+    padding: 0px 0;
+    width: 46vw;
+    height: 40vw;
+  }
+  .big__logo{
+    width: 42vw;
+  }
+  /* serv */
+  .serv__img{
+    width: 40vw;
+  }
+  .serv__text {
+    font-size: 14px;
+  }
+  .serv__table {
+    grid-template-columns: repeat(2, 40vw);
+  }
+  /* about */
+  .about__inner {
+    grid-template-columns: repeat(2, 44vw);
+    grid-gap:15px;
+  }
+  .about__title {
+    line-height: 1;
+    font-size: 32px;
+  }
+  .about__text {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .about__item-title {
+    font-size: 20px;
+  }
+  .about__item-text {
+    font-size: 14px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  /* portfolio */
+  .portfolio__inner-title {
+    font-size: 32px;
+  }
+  .portfolio__inner-text {
+    font-size: 16px;
+    padding-bottom: 20px;
+  }
+  .portfolio__title{
+    height: auto;
+    width: 60%;
+  }
+  .portfolio__content {
+    padding: 40px 0;
+  }
+  .portfolio__content-all-text-left{
+    display: none;
+  }
+  .portfolio__content-all-text-right{
+    display: none;
+  }
+  .portfolio__left-images{
+    margin: 0 auto;
+  }
+  .portfolio__right-images{
+    margin: 0 auto;
+  }
+  .single-img{
+    width: 45vw;
+    height: auto;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .portfolio__content:not(:last-child){
+    border-bottom: none;
+  }
+  /* contacts */
+  .contacts__head {
+    width: 75%;
+  }
+  .contacts__title {
+    font-size: 32px;
+  }
+  .contacts__text {
+    font-size: 18px;
+  }
+  .user__info {
+    column-gap: 15px;
+  }
+  .input {
+    height: 40px;
+    width: 29vw ;
+    font-size: 18px;
+  }
+  .gimme__permission {
+    margin-top: 60px;
+    padding-bottom: 20px;
+  }
+  .checkbox__input {
+    font-size: 14px;
+  }
+  .policy {
+    font-size: 14px;
+  }
+  /* podval epta */
+  .last__container {
+    height: auto;
+  }
+  .footer__inner {
+    grid-template-columns: repeat(3, 32vw);
+    grid-gap:1px;
+    place-content: center center;
+    margin-top: 30px;
+  }
+  .footer__begin{
+    padding-right: 10px;
+  }
+  .footer__logo a{
+    font-size: 14px;
+  }
+  .footer__text {
+    font-size: 9px;
+  }
+  .footer__media {
+  }
+  .footer__media-title {
+    font-size: 12px;
+    padding: 0px 0px 0px 0px;
+    padding-bottom: 15px;
+  }
+  .footer-logos a{
+    font-size: 12px;
+  }
+  .fourth__container {
+    height: 620px;
+  }
 
 }
-
 
 
 
