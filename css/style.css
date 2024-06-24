@@ -1296,7 +1296,7 @@ li{
     font-size: 16px;
   }
 }
-@media screen and (max-width: 426px){
+@media screen and (max-width: 531px){
   body{
     padding-top: 0px;
   }
@@ -1487,6 +1487,197 @@ li{
     font-size: 14px;
   }
 }
+@media screen and (max-width: 426px){
+  body{
+    padding-top: 0px;
+  }
+  .menu{
+    display: none;
+  }
+  .mobile__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+    background-color: #272626;
+    height: 65px;
+  }
+  .menu__mobile{
+    display: none;
+
+  }
+  .menu__burger{
+    cursor: pointer;
+    width: 30px;
+    height: 3px;
+    background-color: #efe8e8;
+    position: relative;
+    margin-right: 10px;
+  }
+  .menu__burger:after{
+    content: '';
+    width: 30px;
+    height: 3px;
+    background-color: #efe8e8;
+    position: absolute;
+    top: 10px;
+  }
+  .menu__burger:before{
+    content: '';
+    width: 30px;
+    height: 3px;
+    background-color: #efe8e8;
+    position: absolute;
+    bottom: 10px;
+  }
+  .logo a{
+    color: #efe8e8;
+    margin-left: 15px;
+    font-size: 20px;
+  }
+  .header__title {
+    font-size: 25px;
+    padding-right: 5px;
+    padding-left: 15px;
+  }
+  .header__text {
+    font-size: 12px;
+    padding-right: 5px;
+    padding-left: 15px;
+  }
+  .btn {
+    font-size: 13px;
+    width: auto;/*250*/
+    height: auto;
+  }
+  .welcome{
+    padding: 0px 0;
+    width: 50vw;
+    height: 40vw;
+  }
+  .big__logo{
+    width: 40vw;
+  }
+  /* serv */
+  .serv__img{
+    width: 40vw;
+  }
+  .serv__text {
+    font-size: 18px;
+  }
+  .serv__table {
+    grid-template-columns: repeat(2, 40vw);
+  }
+  /* about */
+  .about__inner {
+    grid-template-columns: repeat(2, 44vw);
+    grid-gap:15px;
+  }
+  .about__title {
+    line-height: 1;
+    font-size: 35px;
+  }
+  .about__text {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .about__item-title {
+    font-size: 20px;
+  }
+  .about__item-text {
+    font-size: 14px;
+  }
+  /* portfolio */
+  .portfolio__inner-title {
+    font-size: 35px;
+  }
+  .portfolio__inner-text {
+    font-size: 18px;
+    padding-bottom: 20px;
+  }
+  .portfolio__title{
+    height: auto;
+    width: 60%;
+  }
+  .portfolio__content {
+    padding: 40px 0;
+  }
+  .portfolio__content-all-text-left{
+    display: none;
+  }
+  .portfolio__content-all-text-right{
+    display: none;
+  }
+  .portfolio__left-images{
+    margin: 0 auto;
+  }
+  .portfolio__right-images{
+    margin: 0 auto;
+  }
+  .single-img{
+    width: 45vw;
+    height: auto;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .portfolio__content:not(:last-child){
+    border-bottom: none;
+  }
+  /* contacts */
+  .contacts__head {
+    width: 70%;
+  }
+  .contacts__title {
+    font-size: 35px;
+  }
+  .contacts__text {
+    font-size: 18px;
+  }
+  .user__info {
+    column-gap: 15px;
+  }
+  .input {
+    height: 40px;
+    width: 30vw;
+    font-size: 18px;
+  }
+  .gimme__permission {
+    padding-bottom: 20px;
+  }
+  .checkbox__input {
+    font-size: 14px;
+  }
+  .policy {
+    font-size: 14px;
+  }
+  /* podval epta */
+  .last__container {
+    height: auto;
+  }
+  .footer__inner {
+    grid-template-columns: repeat(3, 31vw);
+    grid-gap:5px;
+    place-content: center center;
+    margin-top: 30px;
+  }
+  .footer__begin{
+    padding-right: 10px;
+  }
+  .footer__logo a{
+    font-size: 14px;
+  }
+  .footer__text {
+    font-size: 9px;
+  }
+  .footer__media-title {
+    font-size: 10px;
+    padding: 0px 0px 0px 0px;
+    padding-bottom: 15px;
+  }
+  .footer-logos a{
+    font-size: 14px;
+  }
+}
 @media screen and (max-width: 376px){
   body{
     padding-top: 0px;
@@ -1536,12 +1727,12 @@ li{
     font-size: 20px;
   }
   .header__title {
-    font-size: 23px;
+    font-size: 20px;
     padding-right: 5px;
     padding-left: 15px;
   }
   .header__text {
-    font-size: 11px;
+    font-size: 10px;
     padding-right: 5px;
     padding-left: 15px;
   }
@@ -1552,11 +1743,11 @@ li{
   }
   .welcome{
     padding: 0px 0;
-    width: 46vw;
+    width: 50vw;
     height: 40vw;
   }
   .big__logo{
-    width: 42vw;
+    width: 40vw;
   }
   /* serv */
   .serv__img{
@@ -1585,7 +1776,7 @@ li{
     font-size: 20px;
   }
   .about__item-text {
-    font-size: 14px;
+    font-size: 12px;
     padding-right: 0px;
     padding-left: 0px;
   }
@@ -1630,10 +1821,10 @@ li{
     width: 75%;
   }
   .contacts__title {
-    font-size: 32px;
+    font-size: 30px;
   }
   .contacts__text {
-    font-size: 18px;
+    font-size: 16px;
   }
   .user__info {
     column-gap: 15px;
@@ -1653,7 +1844,7 @@ li{
     font-size: 14px;
   }
   .policy {
-    font-size: 14px;
+    font-size: 13px;
   }
   /* podval epta */
   .last__container {
@@ -1735,7 +1926,7 @@ li{
     font-size: 18px;
   }
   .header__title {
-    font-size: 20px;
+    font-size: 18px;
     padding-right: 5px;
     padding-left: 10px;
   }
