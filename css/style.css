@@ -1548,7 +1548,7 @@ li{
 }
 @media screen and (max-width: 426px){
   body{
-    padding-top: 0px;
+    padding-top: 65px;
   }
   .menu{
     display: none;
@@ -1740,7 +1740,7 @@ li{
 }
 @media screen and (max-width: 376px){
   body{
-    padding-top: 0px;
+    padding-top: 55px;
   }
   .menu{
     display: none;
