@@ -103,7 +103,7 @@ span:first-child {
 .menu.element-show{
   opacity: 1;
   transform: translateY(0%);
-  transition: all 1.5s;
+  transition: all 1s;
   -webkit-transform: translateY(0%);
   -ms-transform: translateY(0%);
 }
@@ -1344,7 +1344,7 @@ li{
   .mobile__menu.element-show{
     opacity: 1;
     transform: translateY(0%);
-    transition: all 1.5s;
+    transition: all 1s;
     -webkit-transform: translateY(0%);
     -ms-transform: translateY(0%);
   }
