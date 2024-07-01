@@ -1336,7 +1336,7 @@ li{
     top: 0;
     left: 0;
     opacity: 0;
-    z-index: 3;
+    z-index: 3; 
     transform: translateY(-20px);
     -webkit-transform: translateY(-20px);
     -ms-transform: translateY(-20px);
