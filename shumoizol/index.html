@@ -53,9 +53,7 @@
                 <h1 class="header__title"><span>Шумоизоляция</span> <span><br>автомобиля</span></h1>
                 <p class="header__text">Данная услуга позволяет снизить
                      уровень шума в салоне автомобиля, создавая
-                      комфортные условия для водителя и пассажиров.
-                       Шумоизоляция также улучшает акустический комфорт в салоне,
-                        делая поездки более приятными.</p>
+                      комфортные условия как для водителя, так и для пассажиров.</p>
             </div>
             <img src="shumoizol_back.jpeg" alt="" class="big__logo">
         </div>
@@ -67,7 +65,7 @@
         <div class="price__head">
             <div class="price__title">Цены</div>
             <div class="price__text">За подробной информацией обращайтесь к нам по телефону:
-            <br><br>+7 (912) 668 67 77
+            <br>+7 (912) 668 67 77
             </div>
         </div>
         <div class="price__content">
@@ -116,7 +114,6 @@
  </div>
  <div class="portfolio" id="portf">
     <div class="third__container">
-        <div><br><br><br><br></div>
         <div class="portfolio__head">
             <h1 class="portfolio__inner-title">Портфолио</h1>
             <p class="portfolio__inner-text">Больше работ в <a href="#">Instagram</a></p>
@@ -154,25 +151,40 @@
  </div>
  <div class="contacts" id="contacts">
     <div class="fourth__container">
-        <div><br><br><br><br></div>
-        <div class="contacts__head">
-            <div class="contacts__title">Контакты</div>
-            <div class="contacts__text">Оставьте свою заявку, и наш менеджер свяжется с вами</div>
+        <div class="whole__form">
+            <div class="contacts__head">
+                <div class="contacts__title">Контакты</div>
+                <div class="contacts__text">Оставьте свою заявку, и наш менеджер свяжется с вами</div>
+            </div>
+            <div class="contacts__inner">
+                <div class="user__info">
+                    <form id="form" action="https://api.web3forms.com/submit" method="POST">
+                        <div class="all__input">
+                            <input type="hidden" name="access_key" value="1a13c8a9-bf3f-453d-8bbc-989473cbe6d8">
+                            <input type="text" class="input _req _email" name="mail" placeholder="E-mail">
+                            <input type="text" class="input _req" name="name" placeholder="Имя">
+                            <input type="text" class="input _req" name="phone" placeholder="Телефон">
+                        </div>
+                        <div class="gimme__permission">
+                            <input id="formAgreement" type="checkbox" name="agreement" class="checkbox__input _req">
+                            <label for="formAgreement" class="policy _req">Я даю свое согласие на обработку персональных данных
+                            в соответствии с <a href="#">политикой конфиденциальности</a></label>
+                        </div>
+                        <div class="send__info">
+                            <a href="#"><button class="btn" type="submit">Отправить</button></a>
+                        </div>
+                    </form>
+                </div>
+                <!--<div class="send__info">
+                    <a href="#"><button class="btn" type="button">Отправить</button></a>
+                </div>
+                <div class="policy">
+                    Нажимая на кнопку, вы даете согласие на обработку персональных данных<br>
+                     и соглашаетесь c политикой конфиденциальности
+                </div>-->
+            </div>
         </div>
-        <div class="contacts__inner">
-            <div class="user__info">
-                <input type="text" class="input" name="mail" placeholder="E-mail">
-                <input type="text" class="input" name="name" placeholder="Имя">
-                <input type="text" class="input" name="phone" placeholder="Телефон">
-            </div>
-            <div class="send__info">
-                <a href="#"><button class="btn" type="button">Отправить</button></a>
-            </div>
-            <div class="policy">
-                Нажимая на кнопку, вы даете согласие на обработку персональных данных<br>
-                 и соглашаетесь c политикой конфиденциальности
-            </div>
-        </div>
+        
     </div>
  </div>
  <div class="footer">

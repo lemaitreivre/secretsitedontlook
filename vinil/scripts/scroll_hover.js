@@ -10,7 +10,7 @@ function onEntry(entry) {
   let options = {
     threshold: [0.5] };
   let observer = new IntersectionObserver(onEntry, options);
-  let elements = document.querySelectorAll('.menu,.welcome,.big__logo,.price__head,.send,.portfolio__head,.portfolio__content-all-text-left,.portfolio__content-all-text-right,.portfolio__left-images,.portfolio__right-images,.contacts__head,.input,.send__info');
+  let elements = document.querySelectorAll('.menu,.welcome,.big__logo,.price__head,.send,.portfolio__head,.portfolio__content-all-text-left,.portfolio__content-all-text-right,.portfolio__left-images,.portfolio__right-images,.contacts__head,.input,.send__info,.portfolio__head');
   
   for (let elm of elements) {
     observer.observe(elm);
