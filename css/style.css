@@ -63,15 +63,18 @@ body{
 a{
   text-decoration: none;
 }
-span:first-child {
+span {
   color: #BF58E8;
 }
 /* Заголовок и первый блок */
+.kach{
+  color: #BF58E8;
+}
 .first_container {
     width: 100%;
     padding: 0 0px;
     margin: 0px auto;
-    height: auto; /* 49vw*/
+    height: auto mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm                              ;
     background: url(../img/main_background2.jpg);
     padding-bottom: 25px;
 }
@@ -165,19 +168,19 @@ li{
   align-items: center;
   text-align: center;
   padding: 50px 0;
-  
 }
 .welcome{
-  display: block;
+  display: flex;
   justify-content: center;
-  padding: 100px 0;
-  width: 45vw;
-  height: 33.25vw;
+  align-items: center;
+  text-align: center;
+  width: 41vw;
+  height: 25.25vw;
   color: rgba(255, 255, 255, 0.5); /* Белый цвет с прозрачностью 50% */
   background-color: #272626; /* Черный фон */
   /*background-color: #D8C1DD66;*/
   margin-left: 3vw;
-  text-align: left;
+  text-align: center;
   opacity: 0;
   box-shadow: 2px 2px 25px 10px rgba(224, 207, 226, 0.4);
   transform: translateX(-80px) translateY(10px);
@@ -192,7 +195,6 @@ li{
   -ms-transform: translateX(0%) translateY(0%);
 }
 .header__title {
-  padding-left: 4vw;
   font-size: 3.75vw;
   font-family: "BebasNeueCyrillic", sans-serif;
   text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;
@@ -201,17 +203,9 @@ li{
   font-weight: normal;
   letter-spacing: 0.025em;
 }
-.header__text {
-  padding-left: 4vw;
-  font-family: "HelveticaNeueLTProLt", sans-serif;
-  font-size: 1.35vw;
-  text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;
-  color: #efe8e8;
-  line-height: 1.5em;
-  font-weight: bold;
-}
+
 .big__logo{
-  width: 31.25vw;
+  width: 33vw;
   margin-right: 4.7vw;
   opacity: 0;
   transform: translateX(-80px) translateY(10px);
@@ -899,13 +893,7 @@ li{
   }
   /* first container*/
   .header__title {
-    font-size: 59px;
-  }
-  .header__text {
-    font-size: 21px;
-  }
-  .welcome{
-    padding: 83px 0;
+    font-size: 56px;
   }
   .btn {
     font-size: 16px;
@@ -991,12 +979,6 @@ li{
   }
   .header__title {
     font-size: 45px;
-  }
-  .header__text {
-    font-size: 18px;
-  }
-  .welcome{
-    padding: 40px 0;
   }
   .btn {
     font-size: 14px;
@@ -1092,13 +1074,7 @@ li{
     font-size: 24px;
   }
   .header__title {
-    font-size: 42px;
-  }
-  .header__text {
-    font-size: 16px;
-  }
-  .welcome{
-    padding: 30px 0;
+    font-size: 38px;
   }
   .btn {
     font-size: 13px;
@@ -1196,17 +1172,9 @@ li{
     margin-left: 20px;
   }
   .header__title {
-    font-size: 5vw;
+    font-size: 4.5vw;
   }
-  .header__text {
-    font-size: 2vw;
-  }
-  .big__logo{
-    width: 38vw;
-  }
-  .welcome{
-    padding: 30px 0;
-  }
+
   .btn {
     font-size: 13px;
     width: auto;/*250*/
@@ -1403,29 +1371,14 @@ li{
     font-size: 18px;
   }
   .header__title {
-    font-size: 30px;
-    padding-top: 10px;
-    padding-right: 5px;
-    padding-left: 15px;
-  }
-  .header__text {
-    font-size: 12px;
-    padding-right: 5px;
-    padding-left: 15px;
+    font-size: 22px;
   }
   .btn {
     font-size: 13px;
     width: auto;/*250*/
     height: auto;
   }
-  .welcome{
-    padding: 0px 0;
-    width: 50vw;
-    height: 40vw;
-  }
-  .big__logo{
-    width: 36vw;
-  }
+
   /* serv */
   .serv__img{
     width: 40vw;
@@ -1596,28 +1549,14 @@ li{
     font-size: 20px;
   }
   .header__title {
-    font-size: 25px;
-    padding-right: 5px;
-    padding-left: 15px;
-  }
-  .header__text {
-    font-size: 12px;
-    padding-right: 5px;
-    padding-left: 15px;
+    font-size: 20px;
   }
   .btn {
     font-size: 13px;
     width: auto;/*250*/
     height: auto;
   }
-  .welcome{
-    padding: 0px 0;
-    width: 50vw;
-    height: 40vw;
-  }
-  .big__logo{
-    width: 40vw;
-  }
+
   /* serv */
   .serv__img{
     width: 40vw;
@@ -1772,6 +1711,7 @@ li{
     content: '';
     width: 25px;
     height: 3px;
+
     background-color: #efe8e8;
     position: absolute;
     top: 10px;
@@ -1791,27 +1731,13 @@ li{
   }
   .header__title {
     font-size: 20px;
-    padding-right: 5px;
-    padding-left: 15px;
-  }
-  .header__text {
-    font-size: 10px;
-    padding-right: 5px;
-    padding-left: 15px;
   }
   .btn {
     font-size: 12px;
     width: auto;/*250*/
     height: auto;
   }
-  .welcome{
-    padding: 0px 0;
-    width: 50vw;
-    height: 40vw;
-  }
-  .big__logo{
-    width: 40vw;
-  }
+
   /* serv */
   .serv__img{
     width: 40vw;
@@ -2000,27 +1926,14 @@ li{
   }
   .header__title {
     font-size: 16px;
-    padding-right: 5px;
-    padding-left: 10px;
-  }
-  .header__text {
-    font-size: 8px;
-    padding-right: 5px;
-    padding-left: 10px;
   }
   .btn {
     font-size: 12px;
     width: auto;/*250*/
     height: auto;
   }
-  .welcome{
-    padding: 0px 0;
-    width: 46vw;
-    height: 40vw;
-  }
-  .big__logo{
-    width: 42vw;
-  }
+
+
   /* serv */
   .serv__img{
     width: 40vw;
