@@ -306,7 +306,7 @@ span:first-child {
 }
 
 td, th {
-  padding: 40px;
+  padding: 40px 0;
 }
 
 th {
@@ -1032,7 +1032,7 @@ td {
     width: 8vw;
   }
   td, th {
-    padding: 3.5vw;
+    padding: 3.5vw 0;
   }
   td{
     font-size: 18px;
@@ -1161,7 +1161,7 @@ td {
     width: 8vw;
   }
   td, th {
-    padding: 3.5vw;
+    padding: 3.5vw 0;
   }
   td{
     font-size: 14px;
@@ -1300,7 +1300,7 @@ td {
     width: 8vw;
   }
   td, th {
-    padding: 3vw;
+    padding: 3vw 0;
   }
   td{
     font-size: 12px;
@@ -1474,7 +1474,7 @@ td {
     width: 8vw;
   }
   td, th {
-    padding: 3vw;
+    padding: 3vw 0;
   }
   td{
     font-size: 12px;
@@ -1651,7 +1651,7 @@ td {
     width: 7vw;
   }
   td, th {
-    padding: 3vw;
+    padding: 3vw 0;
   }
   td{
     font-size: 10px;

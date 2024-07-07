@@ -895,7 +895,7 @@ td {
   }
   /* prices */
   .second__container{
-    height: 1311px;
+    height: auto;
   }
   .price__title{
     font-size: 42px;
@@ -908,6 +908,9 @@ td {
   }
   .class__logo{
     width: 80px;
+  }
+  td,th{
+    padding: 3vw;
   }
   td{
     font-size: 17px;
@@ -1034,7 +1037,7 @@ td {
     width: 8vw;
   }
   td, th {
-    padding: 3.5vw;
+    padding: 3.5vw 3vw;
   }
   td{
     font-size: 18px;
@@ -1163,7 +1166,7 @@ td {
     width: 8vw;
   }
   td, th {
-    padding: 3.5vw;
+    padding: 2vw 2vw;
   }
   td{
     font-size: 14px;
@@ -1171,6 +1174,7 @@ td {
   th{
     font-size: 20px;
   }
+
   .btn {
     margin-top: 30px;
     font-size: 16px;
@@ -1302,7 +1306,7 @@ td {
     width: 8vw;
   }
   td, th {
-    padding: 3vw;
+    padding: 3vw 0;
   }
   td{
     font-size: 12px;
@@ -1475,8 +1479,11 @@ td {
   .class__logo{
     width: 8vw;
   }
+  tr{
+    max-width: 10vw;
+  }
   td, th {
-    padding: 3vw;
+    padding: 2vw 0;
   }
   td{
     font-size: 12px;
@@ -1653,7 +1660,7 @@ td {
     width: 8vw;
   }
   td, th {
-    padding: 3vw;
+    padding: 3vw 0;
   }
   td{
     font-size: 10px;
