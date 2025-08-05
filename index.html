@@ -14,9 +14,9 @@
     <script>
     SmoothScroll({
     // Время скролла 400 = 0.4 секунды
-    animationTime : 590,
+    animationTime : 300,
     // Размер шага в пикселях
-    stepSize : 175,
+    stepSize : 125,
 
     // Дополнительные настройки:
 
@@ -93,23 +93,23 @@
                     </div>
                     <div class="serv__text">Тонировка авто</div>
                 </a>
-                <a href="vinilbron/" class="serv__item">
+                <a href="okleykabron/" class="serv__item">
                     <div class="serv__bg">
-                        <img src="img/vinil.jpg" alt="" class="serv__img">
+                        <img src="img/okleybg.jpg" alt="" class="serv__img">
                     </div>
-                    <div class="serv__text">Винил и бронирование</div>
+                    <div class="serv__text">Оклейка и бронирование</div>
                 </a>
                 <a href="udalenievmyatin/" class="serv__item">
                     <div class="serv__bg">
-                        <img src="img/bronya.jpg" alt="" class="serv__img"> 
+                        <img src="img/udalvmyat.jpg" alt="" class="serv__img"> 
                     </div>
                     <div class="serv__text">Удаление вмятин</div>
                 </a>
-                <a href="tonerphar/" class="serv__item">
+                <a href="shinomont/" class="serv__item">
                     <div class="serv__bg">
-                        <img src="img/bronyaphar.jpg" alt="" class="serv__img">
+                        <img src="img/shinomont.jpg" alt="" class="serv__img">
                     </div>
-                    <div class="serv__text">Тонировка и броня фар</div>
+                    <div class="serv__text">Шиномонтаж</div>
                 </a>
                 <a href="polirovka/" class="serv__item">
                     <div class="serv__bg">
@@ -119,7 +119,7 @@
                 </a>
                 <a href="kuzovrepair/" class="serv__item">
                     <div class="serv__bg">
-                        <img src="img/remontstekla.jpg" alt="" class="serv__img">
+                        <img src="img/udalenievmyatin.jpg" alt="" class="serv__img">
                     </div>
                     <div class="serv__text">Кузовной ремонт/<br>окрас</div>
                 </a>
@@ -151,7 +151,7 @@
                     <i class="icon-user-circle"></i>
                 </div>
                 <h3 class="about__item-title">Профессионализм</h3>
-                <p class="about__item-text">Наши мастера имеют колосальный опыт в сфере авто</p>
+                <p class="about__item-text">Наши мастера имеют колоссальный опыт в сфере детейлинга, гарантирующий высочайшее качество каждой выполненной работы</p>
             </div>
             <div class="about__item">
                 <div class="about__item-box">
@@ -199,30 +199,21 @@
         </div>
         <div class="portfolio__inner">
             <div class="portfolio__content">
-                <div class="portfolio__content-all-text-left">
-                    <h1 class="portfolio__content-title">Тонировка</h1>
-                </div>
-                <div class="portfolio__right-images">
-                    <img src="img/double_bmw2.jpg" alt="" class="single-img">
-                    <img src="img/double_bmw3.jpg" alt="" class="single-img">
+                <div class="portfolio__images">
+                    <img src="/img/double_bmw2.jpg" alt="" class="single-img">
+                    <img src="/img/double_bmw3.jpg" alt="" class="single-img">
                 </div>
             </div>
             <div class="portfolio__content">
-                <div class="portfolio__left-images">
-                    <img src="img/double_cherry1.jpg" alt="" class="single-img">
-                    <img src="img/double_cherry2.jpg" alt="" class="single-img">
-                </div>
-                <div class="portfolio__content-all-text-right">
-                    <h1 class="portfolio__content-title">Атермальная<br> тонировка</h1>
+                <div class="portfolio__images">
+                    <img src="/img/Polirovka i zashita phar 1.jpg" alt="" class="single-img">
+                    <img src="/img/Polirovka i zashita phar 2.jpg" alt="" class="single-img">
                 </div>
             </div>
             <div class="portfolio__content">
-                <div class="portfolio__content-all-text-left">
-                    <h1 class="portfolio__content-title">Тонировка<br> боковых зеркал</h1>
-                </div>
-                <div class="portfolio__right-images">
-                    <img src="img/double_nissan1.jpg" alt="" class="single-img">
-                    <img src="img/double_nissan2.jpg" alt="" class="single-img">
+                <div class="portfolio__images">
+                    <img src="/img/okleyka phar bmw 1.jpg" alt="" class="single-img">
+                    <img src="/img/okleyka phar bmw 2.jpg" alt="" class="single-img">
                 </div>
             </div>
         </div>
@@ -238,9 +229,8 @@
             </div>
             <div class="contacts__inner">
                 <div class="user__info">
-                    <form id="form" action="https://api.web3forms.com/submit" method="POST">
+                    <form id="form" action="send_email.php" method="POST">
                         <div class="all__input">
-                            <input type="hidden" name="access_key" value="1a13c8a9-bf3f-453d-8bbc-989473cbe6d8">
                             <input type="text" class="input _req _email" name="mail" placeholder="E-mail">
                             <input type="text" class="input _req" name="name" placeholder="Имя">
                             <input type="text" class="input _req" name="phone" placeholder="Телефон">
@@ -251,17 +241,10 @@
                             в соответствии с <a href="#">политикой конфиденциальности</a></label>
                         </div>
                         <div class="send__info">
-                            <a href="#"><button class="btn" type="submit">Отправить</button></a>
+                            <button class="btn" type="submit">Отправить</button>
                         </div>
                     </form>
                 </div>
-                <!--<div class="send__info">
-                    <a href="#"><button class="btn" type="button">Отправить</button></a>
-                </div>
-                <div class="policy">
-                    Нажимая на кнопку, вы даете согласие на обработку персональных данных<br>
-                     и соглашаетесь c политикой конфиденциальности
-                </div>-->
             </div>
         </div>
         
@@ -278,25 +261,22 @@
                 <p class="footer__media-title">Наши социальные сети</p>
                 <div class="footer-logos">
                     <a href="https://vk.com/papa_shelesta"><i class="icon-vkontakte"></i></a>
-                    <a href="#"><i class="icon-instagram"></i></a>
-                    <a href="https://t.me/Scweds"><i class="icon-telegram" ></i></a>
+                    <a href="https://www.instagram.com/carlounge96"><i class="icon-instagram"></i></a>
+                    <a href="https://t.me/DT_CarLounge96"><i class="icon-telegram" ></i></a>
                 </div>
             </div>
             <div class="footer__contacts">
-                <p class="footer__text">Екатеринбург, ул. Крестинского 46</p>
-                <p class="footer__text">+7 (912) 668 67 77</p>
+                <p class="footer__text">Екатеринбург, ул. Старых большевиков 3Вк2</p>
                 <p class="footer__text">+7 (912) 694 22 21</p>
+                <p class="footer__text">+7 (343) 202 00 15</p>
             </div>
         </div>
     </div>
  </div>
 
 <script src="scripts/jquery-3.7.1.min.js"></script>
-<!--<script src="scripts/main.js"></script>-->
 <script src="scripts/scroll.js"></script>
 <script src="scripts/scroll_hover.js"></script>
-<script src="scripts/form_script.js"></script>
-<!--<script src="scripts/scroll mobile.js"></script>-->
-
+<script src="scripts/errors.js"></script>
 </body>
 </html>
